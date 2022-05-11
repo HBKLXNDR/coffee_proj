@@ -1,18 +1,18 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+fooSlider(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+function nextSlide(n) {
+    fooSlider(slideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+    fooSlider(slideIndex = n);
 }
 
-function showSlides(n) {
+function fooSlider(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    const slides = document.getElementsByClassName("mySlides");
+    const dots = document.getElementsByClassName("dot");
     if (n > slides.length) {
         slideIndex = 1
     }
