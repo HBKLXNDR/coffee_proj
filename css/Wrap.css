@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
+    margin: 35px 0;
     gap: 15px;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .titlePhoto .item {
-    margin: 65px 0 115px;
+    margin: 65px 0 80px;
 }
 
 .photo-wrapper {
@@ -105,3 +105,65 @@
 .active {
     display: none;
 }
+
+.container {
+    margin-top: 100px;
+    padding: 0 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .photos_container {
+    display: flex;
+    padding-left: 50px;
+}
+
+.container .photos_container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.container .text_n_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    flex-wrap: wrap;
+    padding-right: 40px;
+}
+.container .text_n_button .button{
+    color: white;
+    background-color: #1D1F2E;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 9px 24px;
+    width: 173px;
+    height: 36px;
+}
+.container .text_n_button .button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.big_font{
+    font-size: 36px;
+    line-height: 50px;
+}
+.images{
+    width: 100%;
+}
+.images:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.small_images:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
