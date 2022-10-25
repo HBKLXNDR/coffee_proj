@@ -1,6 +1,12 @@
 @media screen and (min-width: 981px) and (max-width: 1023px) {
+    *{
+        overflow-x: hidden;
+
+    }
+
     .wrap {
         padding: 20px 40px;
+        overflow-y: hidden;
     }
 
     .item {
@@ -57,6 +63,10 @@
 }
 
 @media screen and (min-width: 768px) and  (max-width: 980px) {
+    *{
+        overflow-x: hidden;
+
+    }
     .wrap {
         padding: 10px 40px;
     }
@@ -127,6 +137,7 @@
     * {
         font-size: 12px;
         line-height: 22px;
+        overflow-x: hidden;
     }
 
     .bigger_prices {

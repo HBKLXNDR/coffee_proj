@@ -35,11 +35,12 @@
     width: 100%;
     cursor: pointer;
     margin-bottom: 35px;
+    transition: 0.4s;
 }
 
 .big_images:hover {
     transform: scale(1.05);
-    transition: 0.4s;
+
 }
 
 .bigger_prices {
@@ -66,11 +67,12 @@
     width: 100%;
     cursor: pointer;
     margin-bottom: 35px;
+    transition: 0.4s;
 }
 
 .smaller_images:hover {
     transform: scale(1.05);
-    transition: 0.4s;
+
 }
 
 .blockItem {
@@ -144,12 +146,13 @@
     width: 173px;
     height: 36px;
     border: none;
+    transition: 0.5s;
+
 }
 
 .container .text_n_button .button:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: 0.5s;
 }
 
 .big_font {
@@ -157,25 +160,27 @@
     line-height: 50px;
 }
 
+.images{
+    transition: 0.5s;
+}
 
 .images:hover {
     cursor: pointer;
     transform: scale(1.05);
+
+}
+
+.small_images{
     transition: 0.5s;
 }
 
 .small_images:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition: 0.5s;
 }
 
 .mySlides {
     display: none
-}
-
-img {
-    vertical-align: middle;
 }
 
 .slideshow-container {
@@ -240,6 +245,7 @@ img {
 
 .active, .dot:hover {
     background-color: #717171;
+    transition: 1s;
 }
 
 .fade {
